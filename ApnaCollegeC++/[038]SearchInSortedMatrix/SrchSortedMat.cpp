@@ -6,7 +6,7 @@ bool rotsrch(vector<vector<int>>& mat , int key)
 {
     int r = 0;
     int c = mat[0].size()-1;
-    while(r<mat[0].size() && c>=0)
+    while(r<mat.size() && c>=0)
     {
         if(mat[r][c] == key){return true;}
         else if(mat[r][c]<key){r++;}
