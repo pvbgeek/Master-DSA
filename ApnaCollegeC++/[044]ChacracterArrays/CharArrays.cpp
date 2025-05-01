@@ -20,5 +20,15 @@ int main()
     }
     cout<<endl;
 
+    char input[100];
+    cout<<"Enter a input string : ";
+    cout<<endl;
+    cin.getline(input , 100 , '#');
+    cout<<input<<endl;
+    cout<<"Enter a input string : ";
+    cout<<endl;
+    cin.getline(input , 100 , '#');
+    cout<<input<<endl;
+
     delete[] arr;
 }
